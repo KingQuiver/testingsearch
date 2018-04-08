@@ -1,6 +1,6 @@
 <template lang="jade">
   v-toolbar.secondary(light)
-    v-toolbar-title 🚀 Dropserach 🚀
+    v-toolbar-title Dropsearch 
     avatar(v-if="isAuthenticated")
     v-btn(icon flat v-if="isAuthenticated" @click.native="logout")
       v-icon close

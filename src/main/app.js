@@ -6,7 +6,7 @@ const oauthConfig = require('./config').oauth;
 
 if (isDev) {
   console.log('Running in development');
-  require('electron-debug')({showDevTools: true});
+  require('electron-debug')({showDevTools: false});
 } else {
   console.log('Running in production');
 }
