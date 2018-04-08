@@ -39,7 +39,7 @@ app.on('ready', () => {
     height: 365
   });
 
-  mainWindow.loadURL(`file://${__dirname}/../frontend/index.html`)
+  mainWindow.loadURL(`file://${/Users/equinox/Documents/GitHub/DropSearch/src/frontend}/../frontend/index.html`)
 });
 
 ipcMain.on('github-oauth', (event, arg) => {
