@@ -1,6 +1,6 @@
 module.exports = {
   sources: {
-    repoUrl: 'https://github.com/chamerling/electron-oauth-github-vue'
+    repoUrl: 'https://github.com/KingQuiver/DropSearch'
   },
   oauth: {
     clientId: process.env.GITHUB_CLIENT_ID || 'b8a1869eb47788761c70',
